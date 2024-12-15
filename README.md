@@ -6,15 +6,17 @@
 
 [![Captura de pantalla del proyecto](https://i.postimg.cc/SsbTTCPB/website.jpg)](https://postimg.cc/5HpSjYbg)
 
-## Explora el sitio web
-
-Accede aquí → [Cursos Online de Programación](https://cursosonlinedeprogramacion.vercel.app/)
-
 ## Tecnologías utilizadas
 
 - **Next.js 14:** Framework de React para aplicaciones web optimizadas.
+
 - **CSS Modules:** Estilización de forma modular y encapsulada.
+
 - **Swiper JS:** Biblioteca para crear carruseles interactivos.
+
+## Explora el sitio web
+
+Accede aquí → [Cursos Online de Programación](https://cursosonlinedeprogramacion.vercel.app/)
 
 ## Desarrollado por
 
