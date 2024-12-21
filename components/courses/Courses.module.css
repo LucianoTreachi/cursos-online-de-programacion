@@ -33,7 +33,8 @@
 
 .imageWrapper img {
   object-fit: cover;
-  transition: 0.4s;
+  border: 2px solid var(--body);
+  transition: filter 0.4s;
 }
 
 .courses img:hover {
@@ -61,5 +62,9 @@
   .courses {
     grid-template-columns: 1fr;
     gap: var(--size40);
+  }
+
+  .courses img:hover {
+    filter: contrast(100%);
   }
 }

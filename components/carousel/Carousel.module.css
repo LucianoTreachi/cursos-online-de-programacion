@@ -24,13 +24,12 @@
 
 .imageWrapper img {
   object-fit: cover;
-  border: 1px solid var(--body);
-  transition: 0.4s;
+  border: 2px solid var(--body);
+  transition: filter 0.4s;
 }
 
 .imageWrapper img:hover {
   filter: contrast(60%);
-  border: 1px solid var(--primary-color);
 }
 
 @media (max-width: 39.938rem) {
@@ -40,6 +39,5 @@
 
   .imageWrapper img:hover {
     filter: contrast(100%);
-    border: 1px solid var(--body);
   }
 }
