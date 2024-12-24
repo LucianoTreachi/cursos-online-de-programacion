@@ -4,7 +4,7 @@
 
 ## Vista previa
 
-[![Captura de pantalla del proyecto](https://i.postimg.cc/SsbTTCPB/website.jpg)](https://postimg.cc/5HpSjYbg)
+[![Captura de pantalla del proyecto](https://i.postimg.cc/Wp0KrpCc/preview.png)](https://postimg.cc/Lh6NFSmx)
 
 ## Tecnologías utilizadas
 
