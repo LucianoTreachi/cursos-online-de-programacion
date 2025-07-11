@@ -8,11 +8,9 @@
 
 ## Tecnologías utilizadas
 
-- **Next.js 14:** Framework de React para aplicaciones web optimizadas.
-
-- **CSS Modules:** Estilización de forma modular y encapsulada.
-
-- **Swiper JS:** Biblioteca para crear carruseles interactivos.
+- Next.js 14
+- CSS Modules
+- Swiper JS
 
 ## Explora el sitio web
 

@@ -1,6 +1,3 @@
-"use client";
-
-import { CopyToClipboard } from "react-copy-to-clipboard";
 import { useEffect, useState } from "react";
 import CheckIcon from "@/icons/CheckIcon";
 import ShareIcon from "@/icons/ShareIcon";
