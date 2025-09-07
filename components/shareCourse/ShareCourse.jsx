@@ -1,4 +1,7 @@
+"use client";
+
 import { useEffect, useState } from "react";
+import CopyToClipboard from "react-copy-to-clipboard";
 import CheckIcon from "@/icons/CheckIcon";
 import ShareIcon from "@/icons/ShareIcon";
 import styles from "./ShareCourse.module.css";
