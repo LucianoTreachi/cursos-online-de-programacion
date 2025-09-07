@@ -24,6 +24,7 @@
   text-decoration: underline;
   color: var(--primary-color);
   opacity: 1;
+  font-weight: 500;
 }
 
 @media (max-width: 36rem) {
