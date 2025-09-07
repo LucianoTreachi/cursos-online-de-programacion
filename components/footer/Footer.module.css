@@ -20,6 +20,12 @@
   opacity: .7;
 }
 
+.link {
+  text-decoration: underline;
+  color: var(--primary-color);
+  opacity: 1;
+}
+
 @media (max-width: 36rem) {
   .footer {
     padding: var(--size40) var(--size20);
