@@ -12,7 +12,7 @@ export default function Footer() {
           <br />
           <span className={styles.span}>
             Desarrollado por <br />
-            <a href="https://lucianotreachi.website/" className={styles.link}>
+            <a href="https://lucianotreachi.com/" className={styles.link}>
               Luciano Treachi
             </a>
           </span>
