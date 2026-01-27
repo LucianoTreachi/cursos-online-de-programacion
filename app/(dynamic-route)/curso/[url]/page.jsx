@@ -15,15 +15,24 @@ import styles from "./page.module.css";
 // Convert the dynamic param into static param to improve loading speed
 export async function generateStaticParams() {
   const data = await getAllCourses();
-  return data.map(({ url }) => url);
+
+  return data
+    .filter(course => typeof course.url === "string")
+    .map(course => ({
+      url: course.url,
+    }));
 }
 
 // Dynamic Metadata
 export async function generateMetadata({ params }) {
-  const selectedCourse = await getIndividualCourse(params.url);
+  const { url } = await params;
 
-  if (selectedCourse === null) {
-    return notFound();
+  const selectedCourse = await getIndividualCourse(url);
+
+  if (!selectedCourse) {
+    return {
+      title: "Curso no encontrado",
+    };
   }
 
   return {
@@ -41,9 +50,11 @@ export async function generateMetadata({ params }) {
 
 // Component CoursePage
 export default async function CoursePage({ params }) {
-  const selectedCourse = await getIndividualCourse(params.url);
+  const { url } = await params;
 
-  if (selectedCourse === null) {
+  const selectedCourse = await getIndividualCourse(url);
+
+  if (!selectedCourse) {
     return notFound();
   }
 
