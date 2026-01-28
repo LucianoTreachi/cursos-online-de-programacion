@@ -14,7 +14,7 @@
   margin-top: var(--size40);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: var(--size40);
+  gap: var(--size20);
 }
 
 .card {
@@ -26,7 +26,6 @@
   border-radius: 10px;
   background-color: #4141414f;
   border: 2px solid #ffffff17;
-  border-bottom: 2px solid var(--primary-color);
   cursor: pointer;
   transition: filter 0.4s;
 }
@@ -47,7 +46,7 @@
 
 .card span {
   font-size: var(--size14);
-  font-weight: 300;
+  font-weight: 500;
   color: var(--primary-color)
 }
 
