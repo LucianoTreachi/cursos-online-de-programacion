@@ -11,23 +11,30 @@
 
 .paragraph {
   color: #d0dfff;
+  opacity: 1;
 }
 
 .span {
   font-size: var(--size12);
   font-weight: 500;
   line-height: 1.4;
-  opacity: .7;
 }
 
 .link {
   text-decoration: underline;
   color: var(--primary-color);
-  opacity: 1;
+}
+
+.link:hover {
+  opacity: 0.85;
 }
 
 @media (max-width: 36rem) {
   .footer {
     padding: var(--size40) var(--size20);
+  }
+
+  .link:hover {
+    opacity: 1;
   }
 }
